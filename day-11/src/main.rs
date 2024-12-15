@@ -14,6 +14,8 @@ fn part1(input: &str) -> String{
     println!("{:?}", initial);
     let times = 25;
 
+
+
     for i in 0..times{
         blink(&mut initial);
     }
